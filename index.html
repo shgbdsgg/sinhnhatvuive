@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+
+<html lang="vi">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="ie=edge" http-equiv="X-UA-Compatible"/>
+<meta content="Một món quà sinh nhật nhỏ dành cho em 💕" name="Description">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet"/>
+<link href="./html/style.css" rel="stylesheet"/>
+<title>Sinh nhật vui vẻ</title>
+</meta></head>
+<body>
+<!-- MÀN HÌNH MỞ ĐẦU -->
+<section class="intro" id="intro">
+<!-- TIM BAY -->
+<div class="hearts">
+<span>💗</span>
+<span>💕</span>
+<span>💖</span>
+<span>💗</span>
+<span>💕</span>
+<span>💖</span>
+</div>
+<p class="intro-small">
+
+                CÓ MỘT MÓN QUÀ NHỎ DÀNH CHO EM...
+
+            </p>
+<h1>
+
+                Gửi Bé Iu của anh 💕
+
+            </h1>
+<!-- HỘP QUÀ -->
+<div class="gift">
+<div class="gift-lid">
+<div class="ribbon-vertical"></div>
+<!-- NƠ NẰM TRONG NẮP -->
+<div class="gift-bow">
+
+                        🎀
+
+                    </div>
+</div>
+<div class="gift-box">
+<div class="ribbon-vertical"></div>
+<div class="ribbon-horizontal"></div>
+</div>
+</div>
+<p class="intro-text">
+
+                Em mở quà ra nheeeee
+
+            </p>
+<button id="openGift">
+
+                MỞ QUÀ Ở ĐÂY NÈ ✨
+
+            </button>
+</section>
+<!-- NỘI DUNG SINH NHẬT -->
+<main class="birthday-content" id="birthdayContent">
+<div class="birthday-gallery">
+<div class="memory-photo">
+<img alt="" src="./image/h1.jpg"/>
+</div>
+<div class="memory-photo">
+<img alt="" src="./image/h2.jpg"/>
+</div>
+<div class="memory-photo">
+<img alt="" src="./image/h3.jpg"/>
+</div>
+<div class="memory-photo">
+<img alt="" src="./image/h4.jpg"/>
+</div>
+<div class="memory-photo">
+<img alt="" src="./image/h5.jpg"/>
+</div>
+<div class="memory-photo">
+<img alt="" src="./image/h64.jpg"/>
+</div>
+<div class="memory-photo">
+<img alt="" src="./image/h7.jpg"/>
+</div>
+<div class="memory-photo">
+<img alt="" src="./image/h8.jpg"/>
+</div>
+<div class="memory-photo">
+<img alt="" src="./image/h9.jpg"/>
+</div>
+<div class="memory-photo">
+<img alt="" src="./image/h10.jpg"/>
+</div>
+</div>
+</main>
+<!-- POPUP LỜI CHÚC SINH NHẬT -->
+<div class="birthday-popup" id="birthdayPopup">
+<div class="popup-overlay"></div>
+<div class="popup-card">
+<button class="popup-close" id="popupClose">
+
+                    ×
+
+                </button>
+<!-- NỘI DUNG 1 -->
+<div class="popup-page page-1">
+<div class="popup-heart">
+
+                        💗
+
+                    </div>
+<p class="popup-small">
+
+                        HAPPY BIRTHDAY
+
+                    </p>
+<h2>
+
+                        Gửi Biu của anh 💕
+
+                    </h2>
+<p class="popup-message">
+
+                        Chúc em tuổi mới luôn vui vẻ, xinh đẹp,
+
+                        thành công và gặp thật nhiều điều may mắn.
+
+                        <br/><br/>
+
+
+
+                        Mong rằng những điều em mong muốn sẽ dần
+
+                        trở thành hiện thực, và mỗi ngày của em đều
+
+                        có thật nhiều lý do để mỉm cười.
+
+                    </p>
+<p class="popup-signature">
+
+                        Thương em rất nhiều ❤️
+
+                    </p>
+</div>
+<!-- NỘI DUNG 2 -->
+<div class="popup-page page-2">
+<div class="popup-heart">
+
+                        💌
+
+                    </div>
+<p class="popup-small">
+
+                        CÒN MỘT ĐIỀU NỮA...
+
+                    </p>
+<h2>
+
+                        Anh muốn nói với em 💕
+
+                    </h2>
+<p class="popup-message">
+
+                        Cảm ơn em vì đã xuất hiện trong cuộc sống của anh.
+
+                        Những khoảnh khắc bên em là những điều
+
+                        anh muốn giữ thật lâu.
+
+                        <br/><br/>
+
+
+
+                        Hy vọng anh vẫn có thể ở bên cạnh em trong thật
+
+                        nhiều sinh nhật sau này nữa. 🥰
+
+                    </p>
+<p class="popup-signature">
+
+                        Yêu em ❤️
+
+                    </p>
+<!-- NÚT BẮT ĐẦU -->
+<button class="start-btn" id="startBtn" type="button">
+
+                        BẮT ĐẦU NHAAA✨
+
+                    </button>
+</div>
+<!-- THANH KÉO -->
+<div class="slide-area" id="slideArea">
+<div class="slide-text">
+
+                        Kéo qua để xem tiếp 💕
+
+                    </div>
+<div class="slide-track" id="slideTrack">
+<div class="slide-handle" id="slideHandle">
+
+                            ➜
+
+                        </div>
+</div>
+</div>
+</div>
+</div>
+<!-- MÀN HÌNH ĐẾM NGƯỢC -->
+<div class="countdown-screen" id="countdownScreen">
+<div class="countdown-number" id="countdownNumber">
+
+                3
+
+            </div>
+</div>
+<div class="cake-screen" id="cakeScreen">
+<div class="cake-wrap">
+<p class="cake-title">
+</p>
+<div class="cute-cake">
+<!-- NẾN SỐ 20 -->
+<div class="number-candle" id="candle">
+<div class="digit digit-two">
+<div class="wick">
+<div class="flame"></div>
+</div>
+<span>2</span>
+<div class="candle-base"></div>
+</div>
+<div class="digit digit-zero">
+<div class="wick">
+<div class="flame"></div>
+</div>
+<span>0</span>
+<div class="candle-base"></div>
+</div>
+</div>
+<div class="cake-shadow"></div>
+<!-- tầng trên -->
+<div class="cake-tier top-tier">
+<div class="icing"></div>
+<div class="drip drip-1"></div>
+<div class="drip drip-2"></div>
+<div class="drip drip-3"></div>
+<div class="tier-deco"></div>
+</div>
+<!-- tầng dưới -->
+<div class="cake-tier bottom-tier">
+<div class="icing"></div>
+<div class="drip drip-1"></div>
+<div class="drip drip-2"></div>
+<div class="drip drip-3"></div>
+<div class="drip drip-4"></div>
+<div class="tier-deco"></div>
+</div>
+<!-- đế -->
+<div class="cake-plate"></div>
+</div>
+</div>
+</div>
+<!-- POPUP ƯỚC SINH NHẬT -->
+<div class="wish-popup" id="wishPopup">
+<div class="wish-overlay"></div>
+<div class="wish-card">
+<div class="wish-icon">✨</div>
+<p class="wish-small">
+
+                    TRƯỚC KHI THỔI NẾN...
+
+                </p>
+<p class="wish-message">
+
+                    Em hãy nhắm mắt lại và ước một điều
+
+                    thật đẹp cho tuổi mới nha.
+
+                    <br/><br/>
+
+                    Ước xong thì thổi nến nè 🥰
+
+                </p>
+<button class="blow-candle-btn" id="blowCandleBtn" type="button">
+
+                    THỔI NẾN 💨
+
+                </button>
+</div>
+</div>
+<!-- POPUP HỎI XEM KHOẢNH KHẮC -->
+<div class="memory-question-popup" id="memoryQuestionPopup">
+<div class="memory-question-overlay"></div>
+<div class="memory-question-card">
+<div class="memory-question-icon">
+
+                    💕
+
+                </div>
+<h2>
+
+                    Anh hỏi cái này nè...
+
+                </h2>
+<p>
+
+                    Em có muốn xem những khoảnh khắc
+
+                    khi 2 đứa mình có nhau hông? 🥺💕
+
+                </p>
+<div class="memory-question-buttons">
+<button class="memory-yes-btn" id="memoryYesBtn" type="button">
+
+                        CÓ 💕
+
+                    </button>
+<button class="memory-no-btn" id="memoryNoBtn" type="button">
+
+                        KHÔNG 🙈
+
+                    </button>
+</div>
+</div>
+</div>
+<!-- HIỆU ỨNG 2 BÊN KHÉP MÀN HÌNH -->
+<div class="screen-close" id="screenClose">
+<div class="close-panel close-left"></div>
+<div class="close-panel close-right"></div>
+</div>
+<section class="memory-page" id="memoryPage">
+<div class="memory-page-header">
+<p>OUR MEMORIES 💕</p>
+<h1>
+
+                    Những khoảnh khắc của chúng mình
+
+                </h1>
+<span>
+
+                    Có những khoảnh khắc nhỏ thôi,
+
+                    nhưng anh muốn giữ thật lâu 🥰
+
+                </span>
+</div>
+<!-- TAB -->
+<div class="memory-tabs">
+<button class="memory-tab-btn active" data-tab="photoTab" type="button">
+
+                    IMAGE 💕
+
+                </button>
+<button class="memory-tab-btn" data-tab="videoTab" type="button">
+
+                    VIDEO 🎬
+
+                </button>
+</div>
+<!-- =========================
+
+         TAB ẢNH
+
+    ========================== -->
+<div class="memory-tab-content active" id="photoTab">
+<div class="memory-grid">
+<div class="memory-item" data-src="./image/a1.jpg" data-type="image">
+<img alt="" src="./image/a1.jpg"/>
+</div>
+<div class="memory-item" data-src="./image/a2.jpg" data-type="image">
+<img alt="" src="./image/a2.jpg"/>
+</div>
+<div class="memory-item" data-src="./image/a3.jpg" data-type="image">
+<img alt="" src="./image/a3.jpg"/>
+</div>
+<div class="memory-item" data-src="./image/a4.jpg" data-type="image">
+<img alt="" src="./image/a4.jpg"/>
+</div>
+<div class="memory-item" data-src="./image/a5.jpg" data-type="image">
+<img alt="" src="./image/a5.jpg"/>
+</div>
+<div class="memory-item" data-src="./image/a6.jpg" data-type="image">
+<img alt="" src="./image/a6.jpg"/>
+</div>
+<div class="memory-item" data-src="./image/a7.jpg" data-type="image">
+<img alt="" src="./image/a7.jpg"/>
+</div>
+<div class="memory-item" data-src="./image/a8.jpg" data-type="image">
+<img alt="" src="./image/a8.jpg"/>
+</div>
+<div class="memory-item" data-src="./image/a9.jpg" data-type="image">
+<img alt="" src="./image/a9.jpg"/>
+</div>
+<div class="memory-item" data-src="./image/a10.jpg" data-type="image">
+<img alt="" src="./image/a10.jpg"/>
+</div>
+<div class="memory-item" data-src="./image/a11.jpg" data-type="image">
+<img alt="" src="./image/a11.jpg"/>
+</div>
+<div class="memory-item" data-src="./image/a12.jpg" data-type="image">
+<img alt="" src="./image/a12.jpg"/>
+</div>
+<div class="memory-item" data-src="./image/a13.jpg" data-type="image">
+<img alt="" src="./image/a13.jpg"/>
+</div>
+<div class="memory-item" data-src="./image/a14.jpg" data-type="image">
+<img alt="" src="./image/a14.jpg"/>
+</div>
+<div class="memory-item" data-src="./image/a15.jpg" data-type="image">
+<img alt="" src="./image/a15.jpg"/>
+</div>
+<div class="memory-item" data-src="./image/a16.jpg" data-type="image">
+<img alt="" src="./image/a16.jpg"/>
+</div>
+<div class="memory-item" data-src="./image/a17.jpg" data-type="image">
+<img alt="" src="./image/a17.jpg"/>
+</div>
+<div class="memory-item" data-src="./image/a18.jpg" data-type="image">
+<img alt="" src="./image/a18.jpg"/>
+</div>
+<div class="memory-item" data-src="./image/a19.jpg" data-type="image">
+<img alt="" src="./image/a19.jpg"/>
+</div>
+<div class="memory-item" data-src="./image/a20.jpg" data-type="image">
+<img alt="" src="./image/a20.jpg"/>
+</div>
+<div class="memory-item" data-src="./image/a21.jpg" data-type="image">
+<img alt="" src="./image/a21.jpg"/>
+</div>
+<div class="memory-item" data-src="./image/a22.jpg" data-type="image">
+<img alt="" src="./image/a22.jpg"/>
+</div>
+<div class="memory-item" data-src="./image/a23.jpg" data-type="image">
+<img alt="" src="./image/a23.jpg"/>
+</div>
+<div class="memory-item" data-src="./image/a24.jpg" data-type="image">
+<img alt="" src="./image/a24.jpg"/>
+</div>
+<div class="memory-item" data-src="./image/a25.jpg" data-type="image">
+<img alt="" src="./image/a25.jpg"/>
+</div>
+<div class="memory-item" data-src="./image/a26.jpg" data-type="image">
+<img alt="" src="./image/a26.jpg"/>
+</div>
+<div class="memory-item" data-src="./image/a27.jpg" data-type="image">
+<img alt="" src="./image/a27.jpg"/>
+</div>
+<div class="memory-item" data-src="./image/a28.jpg" data-type="image">
+<img alt="" src="./image/a28.jpg"/>
+</div>
+<div class="memory-item" data-src="./image/a29.jpg" data-type="image">
+<img alt="" src="./image/a29.jpg"/>
+</div>
+<div class="memory-item" data-src="./image/a30.jpg" data-type="image">
+<img alt="" src="./image/a30.jpg"/>
+</div>
+<div class="memory-item" data-src="./image/a31.jpg" data-type="image">
+<img alt="" src="./image/a31.jpg"/>
+</div>
+<div class="memory-item" data-src="./image/a32.jpg" data-type="image">
+<img alt="" src="./image/a32.jpg"/>
+</div>
+<div class="memory-item" data-src="./image/a33.jpg" data-type="image">
+<img alt="" src="./image/a33.jpg"/>
+</div>
+<div class="memory-item" data-src="./image/a34.jpg" data-type="image">
+<img alt="" src="./image/a34.jpg"/>
+</div>
+<div class="memory-item" data-src="./image/a35.jpg" data-type="image">
+<img alt="" src="./image/a35.jpg"/>
+</div>
+<div class="memory-item" data-src="./image/a36.jpg" data-type="image">
+<img alt="" src="./image/a36.jpg"/>
+</div>
+<div class="memory-item" data-src="./image/a37.jpg" data-type="image">
+<img alt="" src="./image/a37.jpg"/>
+</div>
+<div class="memory-item" data-src="./image/a38.jpg" data-type="image">
+<img alt="" src="./image/a38.jpg"/>
+</div>
+<div class="memory-item" data-src="./image/a39.jpg" data-type="image">
+<img alt="" src="./image/a39.jpg"/>
+</div>
+<div class="memory-item" data-src="./image/a40.jpg" data-type="image">
+<img alt="" src="./image/a40.jpg"/>
+</div>
+<div class="memory-item" data-src="./image/a41.jpg" data-type="image">
+<img alt="" src="./image/a41.jpg"/>
+</div>
+<div class="memory-item" data-src="./image/a42.jpg" data-type="image">
+<img alt="" src="./image/a42.jpg"/>
+</div>
+<div class="memory-item" data-src="./image/a43.jpg" data-type="image">
+<img alt="" src="./image/a43.jpg"/>
+</div>
+</div>
+</div>
+<!-- =========================
+
+         TAB VIDEO
+
+    ========================== -->
+<div class="memory-tab-content" id="videoTab">
+<div class="memory-grid">
+<div class="memory-item video-item" data-src="./video/v1.mp4" data-type="video">
+<video muted="" preload="metadata" src="./video/v1.mp4"></video>
+<div class="video-play">
+
+                            ▶
+
+                        </div>
+</div>
+<div class="memory-item video-item" data-src="./video/v2.mp4" data-type="video">
+<video muted="" preload="metadata" src="./video/v2.mp4"></video>
+<div class="video-play">
+
+                            ▶
+
+                        </div>
+</div>
+<div class="memory-item video-item" data-src="./video/v3.mp4" data-type="video">
+<video muted="" preload="metadata" src="./video/v3.mp4"></video>
+<div class="video-play">
+
+                            ▶
+
+                        </div>
+</div>
+<div class="memory-item video-item" data-src="./video/v4.mp4" data-type="video">
+<video muted="" preload="metadata" src="./video/v4.mp4"></video>
+<div class="video-play">
+
+                            ▶
+
+                        </div>
+</div>
+<div class="memory-item video-item" data-src="./video/v5.mp4" data-type="video">
+<video muted="" preload="metadata" src="./video/v5.mp4"></video>
+<div class="video-play">
+
+                            ▶
+
+                        </div>
+</div>
+<div class="memory-item video-item" data-src="./video/v6.mp4" data-type="video">
+<video muted="" preload="metadata" src="./video/v6.mp4"></video>
+<div class="video-play">
+
+                            ▶
+
+                        </div>
+</div>
+<div class="memory-item video-item" data-src="./video/v7.mp4" data-type="video">
+<video muted="" preload="metadata" src="./video/v7.mp4"></video>
+<div class="video-play">
+
+                            ▶
+
+                        </div>
+</div>
+<div class="memory-item video-item" data-src="./video/v8.mp4" data-type="video">
+<video muted="" preload="metadata" src="./video/v8.mp4"></video>
+<div class="video-play">
+
+                            ▶
+
+                        </div>
+</div>
+<div class="memory-item video-item" data-src="./video/v9.mp4" data-type="video">
+<video muted="" preload="metadata" src="./video/v9.mp4"></video>
+<div class="video-play">
+
+                            ▶
+
+                        </div>
+</div>
+<div class="memory-item video-item" data-src="./video/v10.mp4" data-type="video">
+<video muted="" preload="metadata" src="./video/v10.mp4"></video>
+<div class="video-play">
+
+                            ▶
+
+                        </div>
+</div>
+<div class="memory-item video-item" data-src="./video/v11.mp4" data-type="video">
+<video muted="" preload="metadata" src="./video/v11.mp4"></video>
+<div class="video-play">
+
+                            ▶
+
+                        </div>
+</div>
+<div class="memory-item video-item" data-src="./video/v12.mp4" data-type="video">
+<video muted="" preload="metadata" src="./video/v12.mp4"></video>
+<div class="video-play">
+
+                            ▶
+
+                        </div>
+</div>
+<div class="memory-item video-item" data-src="./video/v13.mp4" data-type="video">
+<video muted="" preload="metadata" src="./video/v13.mp4"></video>
+<div class="video-play">
+
+                            ▶
+
+                        </div>
+</div>
+<div class="memory-item video-item" data-src="./video/v14.mp4" data-type="video">
+<video muted="" preload="metadata" src="./video/v14.mp4"></video>
+<div class="video-play">
+
+                            ▶
+
+                        </div>
+</div>
+<div class="memory-item video-item" data-src="./video/v15.mp4" data-type="video">
+<video muted="" preload="metadata" src="./video/v15.mp4"></video>
+<div class="video-play">
+
+                            ▶
+
+                        </div>
+</div>
+<div class="memory-item video-item" data-src="./video/v16.mp4" data-type="video">
+<video muted="" preload="metadata" src="./video/v16.mp4"></video>
+<div class="video-play">
+
+                            ▶
+
+                        </div>
+</div>
+<div class="memory-item video-item" data-src="./video/v17.mp4" data-type="video">
+<video muted="" preload="metadata" src="./video/v17.mp4"></video>
+<div class="video-play">
+
+                            ▶
+
+                        </div>
+</div>
+<div class="memory-item video-item" data-src="./video/v18.mp4" data-type="video">
+<video muted="" preload="metadata" src="./video/v18.mp4"></video>
+<div class="video-play">
+
+                            ▶
+
+                        </div>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================
+
+     VIEWER XEM ẢNH / VIDEO
+
+\========================================= -->
+<div class="memory-viewer" id="memoryViewer">
+<div class="memory-viewer-overlay" id="memoryViewerOverlay"></div>
+<button class="memory-viewer-close" id="memoryViewerClose" type="button">
+
+                ×
+
+            </button>
+<div class="memory-viewer-content" id="memoryViewerContent"></div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+<script src="./script/sinhnhat.js"></script>
+</body>
+</html>
